@@ -9,9 +9,9 @@ import io.appium.java_client.android.nativekey.AndroidKey;
 import io.appium.java_client.android.nativekey.KeyEvent;
 import io.appium.java_client.touch.LongPressOptions;
 import io.appium.java_client.touch.offset.ElementOption;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebElement;
 
@@ -36,6 +36,7 @@ public class AppiumTest extends BaseTest {
     /**
      * SendKeys Test
      */
+    @Ignore
     @Test
     public void sendKeysTest() throws InterruptedException {
         WebElement views = driver.findElement(AppiumBy.accessibilityId("Views"));
@@ -52,6 +53,7 @@ public class AppiumTest extends BaseTest {
     /**
      * Alert Test
      */
+    @Ignore
     @Test
     public void alertTest() throws InterruptedException {
         WebElement app = driver.findElement(AppiumBy.accessibilityId("App"));
@@ -68,6 +70,7 @@ public class AppiumTest extends BaseTest {
     /**
      * LongPress Test
      */
+    @Ignore
     @Test
     public void longPressTest() throws InterruptedException {
         driver.findElement(AppiumBy.accessibilityId("Views")).click();
@@ -86,6 +89,7 @@ public class AppiumTest extends BaseTest {
     /**
      * Scroll Test
      */
+    @Ignore
     @Test
     public void scrollTest() throws InterruptedException {
 //        driver.findElement(AppiumBy.accessibilityId("Views")).click();
@@ -106,6 +110,7 @@ public class AppiumTest extends BaseTest {
     /**
      * Dropdown Test
      */
+    @Ignore
     @Test
     public void dropdownTest() throws InterruptedException {
         driver.findElement(AppiumBy.accessibilityId("Views")).click();
@@ -135,6 +140,7 @@ public class AppiumTest extends BaseTest {
      * Swipe Test
      * https://appium.io/docs/en/writing-running-appium/android/android-mobile-gestures/#mobile-swipeGesture
      */
+    @Ignore
     @Test
     public void swipeTest() throws InterruptedException {
         driver.findElement(AppiumBy.accessibilityId("Views")).click();
@@ -156,6 +162,7 @@ public class AppiumTest extends BaseTest {
     /**
      * Verify Text Test
      */
+    @Ignore
     @Test
     public void verifyTextTest() throws InterruptedException {
         driver.findElement(AppiumBy.accessibilityId("App")).click();
@@ -180,6 +187,7 @@ public class AppiumTest extends BaseTest {
     /**
      * Verify Toast Message Test
      */
+    @Ignore
     @Test
     public void verifyToastMessageTest() throws InterruptedException {
         driver.findElement(AppiumBy.accessibilityId("Views")).click();
@@ -215,6 +223,7 @@ public class AppiumTest extends BaseTest {
     /**
      * Drag and Drop Test
      */
+    @Ignore
     @Test
     public void dragAndDropTest() throws InterruptedException {
         driver.findElement(AppiumBy.accessibilityId("Views")).click();
@@ -241,6 +250,7 @@ public class AppiumTest extends BaseTest {
     /**
      * Key Event Test
      */
+    @Ignore
     @Test
     public void keyEventTest() throws InterruptedException {
         driver.findElement(AppiumBy.accessibilityId("Views")).click();
