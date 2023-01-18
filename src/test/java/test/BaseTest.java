@@ -20,8 +20,7 @@ public class BaseTest {
             capabilities.setCapability("platformName", "Android");
             capabilities.setCapability("deviceName", "Device 2");
             capabilities.setCapability("udid", "emulator-5554");
-            capabilities.setCapability("app", "C:/Shubham/IntelliJ/My-WS/appium-practice/src/" +
-                    "test/resources/app/ApiDemos.apk");
+            capabilities.setCapability("app", "C:/Users/sh.singh9/Downloads/sdk-tools/platform-tools/ApiDemos.apk");
 
             URL url = new URL("http://0.0.0.0:4723/wd/hub");
 
